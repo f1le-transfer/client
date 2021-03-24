@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "@loveyousomuch/client",
   "version": "1.0.0",
   "description": "All client logic as an npm module",
   "main": "index.js",

@@ -1,6 +1,10 @@
 # Client for file-transfer
-## Components:
+`Cloud Storage` - server that stores files. <br>
+`Synchronization Service` -  processes file updates made by a client and applies these changes to other subscribed 	clients. <br>
+`Message Queuing Service` - handle a big amount of reads and writes operations. <br>
+`Metadata Database` - store information about versions and metadata about files/chunks, users, and workspaces. <br>
 
+## Components:
 - Indexer
 - Watcher
 - Internal DB
